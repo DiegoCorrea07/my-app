@@ -47,7 +47,7 @@ public class TrigonometryView extends VerticalLayout implements HasUrlParameter<
             case "fácil":
                 correctAnswers = Arrays.asList(
                         "sen²θ + cos²θ = 1",
-                        "sen²θ = 1 - cos²θ",
+                        "sen²θ = (1 - cos²θ)/2",
                         "cos²θ = 1 - sen²θ",
                         "tan²θ = sen²θ + cos²θ",
                         "sen(α + β) = senα × cosβ + cosα × senβ",
@@ -74,9 +74,9 @@ public class TrigonometryView extends VerticalLayout implements HasUrlParameter<
                         "1",
                         "1/cosθ",
                         "(tanθ + tanφ) / (1 - tanθ * tanφ)",
-                        "1/sinθ",
+                        "sec(θ)",
                         "2cos²θ - 1",
-                        "-1/tanθ",
+                        "-cot(θ)",
                         "-senθ",
                         "-cotθ",
                         "cosθ",
@@ -131,12 +131,12 @@ public class TrigonometryView extends VerticalLayout implements HasUrlParameter<
                         Arrays.asList(
                                 "sen²θ + cos²θ = 1",
                                 "senθ = cosθ",
-                                "senθ = 1 / cosθ"
+                                "senθ = (1 / cosθ)/2"
                         ),
                         Arrays.asList(
                                 "sen²θ = 1 - cos²θ",
                                 "sen²θ = cos²θ",
-                                "sen²θ = 1 / cos²θ"
+                                "sen²θ = (1 / cos²θ)/2"
                         ),
                         Arrays.asList(
                                 "cos²θ = 1 - sen²θ",

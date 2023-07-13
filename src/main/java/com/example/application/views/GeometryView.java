@@ -73,14 +73,14 @@ public class GeometryView extends VerticalLayout implements HasUrlParameter<Stri
                 correctAnswers = Arrays.asList(
                         "12 cm",
                         "113.04 cm²",
-                        " cm",
-                        " cm²",
+                        "20 cm",
+                        "27.71 cm²",
                         "25 cm",
                         "24 cm²",
-                        " cm",
-                        " cm²",
+                        "16 cm",
+                        "140.3 cm²",
                         "28 cm",
-                        " cm²"
+                        "42 cm²"
                 );
                 return Arrays.asList(
                         "¿Cuál es el perímetro de un triángulo rectángulo con catetos de longitud 3 cm y 4 cm?",
@@ -96,16 +96,16 @@ public class GeometryView extends VerticalLayout implements HasUrlParameter<Stri
                 );
             case "difícil":
                 correctAnswers = Arrays.asList(
-                        "35 cm",
+                        "50 cm",
                         "40 cm²",
                         "62.8 cm",
-                        "13.5 cm²",
-                        "36 cm",
+                        "18 cm²",
+                        "30 cm",
                         "37.68 cm²",
                         "24 cm",
-                        "54 cm²",
-                        "46.8 cm",
-                        "32.5 cm²"
+                        "81 cm²",
+                        "31.4cm",
+                        "38.32 cm²"
                 );
                 return Arrays.asList(
                         "¿Cuál es el perímetro de un pentágono regular inscrito en una circunferencia de radio 5 cm? (Usa π ≈ 3.14)",
@@ -183,27 +183,27 @@ public class GeometryView extends VerticalLayout implements HasUrlParameter<Stri
                 return Arrays.asList(
                         Arrays.asList("12 cm", "14 cm", "18 cm"),
                         Arrays.asList("113.04 cm²", "226.08 cm²", "452.16 cm²"),
-                        Arrays.asList("26 cm", "28 cm", "30 cm"),
+                        Arrays.asList("20 cm", "28 cm", "30 cm"),
                         Arrays.asList("27.71 cm²", "34.64 cm²", "69.28 cm²"),
                         Arrays.asList("25 cm", "30 cm", "35 cm"),
                         Arrays.asList("24 cm²", "28 cm²", "32 cm²"),
                         Arrays.asList("14 cm", "16 cm", "18 cm"),
-                        Arrays.asList("279.36 cm²", "392.04 cm²", "508.02 cm²"),
+                        Arrays.asList("279.36 cm²", "392.04 cm²", "140.3 cm²"),
                         Arrays.asList("28 cm", "32 cm", "36 cm"),
-                        Arrays.asList("27 cm²", "30 cm²", "36 cm²")
+                        Arrays.asList("27 cm²", "42 cm²", "36 cm²")
                 );
             case "difícil":
                 return Arrays.asList(
-                        Arrays.asList("15 cm", "25 cm", "35 cm"),
+                        Arrays.asList("25 cm", "35 cm", "50 cm"),
                         Arrays.asList("30 cm²", "40 cm²", "20 cm²"),
                         Arrays.asList("62.8 cm", "31.4 cm", "78.5 cm"),
-                        Arrays.asList("13.5 cm²", "16.5 cm²", "18.5 cm²"),
-                        Arrays.asList("28 cm", "32 cm", "36 cm"),
+                        Arrays.asList("13.5 cm²", "16.5 cm²", "18 cm²"),
+                        Arrays.asList("28 cm", "30 cm", "36 cm"),
                         Arrays.asList("37.68 cm²", "45.24 cm²", "56.55 cm²"),
                         Arrays.asList("24 cm", "30 cm", "36 cm"),
-                        Arrays.asList("54 cm²", "72 cm²", "108 cm²"),
+                        Arrays.asList("81 cm²", "72 cm²", "108 cm²"),
                         Arrays.asList("31.4 cm", "46.8 cm", "62.8 cm"),
-                        Arrays.asList("25.5 cm²", "32.5 cm²", "39.5 cm²")
+                        Arrays.asList("25.5 cm²", "32.5 cm²", "38.32 cm²")
                 );
             default:
                 return new ArrayList<>();

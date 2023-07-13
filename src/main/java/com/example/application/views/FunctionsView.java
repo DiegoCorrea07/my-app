@@ -53,7 +53,7 @@ public class FunctionsView extends VerticalLayout implements HasUrlParameter<Str
                         "No se puede determinar",
                         "b² - 4ac, las raíces son reales y diferentes",
                         "10",
-                        "4",
+                        "0",
                         "0",
                         "x = -b / (2a)"
                 );
@@ -74,10 +74,10 @@ public class FunctionsView extends VerticalLayout implements HasUrlParameter<Str
                         "x = (-b ± √(b² - 4ac)) / (2a)",
                         "y = aˣ",
                         "-1",
-                        "(1, 2)",
+                        "(1/4, 23/8)",
                         "m = (y₂ - y₁) / (x₂ - x₁)",
                         "Creciente",
-                        "(-1, 2), (3, -4)",
+                        "( 3 , 1 )",
                         "5",
                         "√((x₂ - x₁)² + (y₂ - y₁)²)",
                         "x ≥ 3"
@@ -131,11 +131,11 @@ public class FunctionsView extends VerticalLayout implements HasUrlParameter<Str
                         Arrays.asList("y = mx + b", "y = ax² + bx + c", "y = mx² + b", "y = ax + c"),
                         Arrays.asList("y = mx + b", "y = ax² + bx + c", "y = mx² + b", "y = ax + c"),
                         Arrays.asList("2", "3", "-2", "-3"),
-                        Arrays.asList("(1, 2)", "(-1, 2)", "(2, 1)", "(2, -1)"),
+                        Arrays.asList("(1/4, 23/8)", "(-1, 2)", "(2, 1)", "(2, -1)"),
                         Arrays.asList("0", "1", "-1", "No se puede determinar"),
                         Arrays.asList("b² - 4ac, las raíces son reales y diferentes", "b² - 4ac, las raíces son complejas conjugadas", "b² + 4ac, las raíces son reales y diferentes", "b² + 4ac, las raíces son complejas conjugadas"),
                         Arrays.asList("10", "11", "12", "13"),
-                        Arrays.asList("4", "3", "2", "1"),
+                        Arrays.asList("4", "0", "2", "1"),
                         Arrays.asList("0", "1", "-1", "No se puede determinar"),
                         Arrays.asList("x = -b / (2a)", "x = -b / (2c)", "x = -b / (2ac)", "x = -c / (2a)")
                 );
@@ -147,7 +147,7 @@ public class FunctionsView extends VerticalLayout implements HasUrlParameter<Str
                         Arrays.asList("(1, 2)", "(-1, 2)", "(2, -1)", "(2, 1)"),
                         Arrays.asList("m = (y₂ - y₁) / (x₂ - x₁)", "m = (x₂ - x₁) / (y₂ - y₁)", "m = (x₁ - x₂) / (y₁ - y₂)", "m = (y₁ - y₂) / (x₁ - x₂)"),
                         Arrays.asList("Creciente", "Decreciente", "Depende de la base", "No se puede determinar"),
-                        Arrays.asList("(1, 2), (3, 4)", "(2, 1), (4, 3)", "(-1, 2), (3, -4)", "(-2, 1), (4, -3)"),
+                        Arrays.asList("(3, 1)", "(2, 1), (4, 3)", "(-1, 2), (3, -4)", "(-2, 1), (4, -3)"),
                         Arrays.asList("5", "4", "3", "2"),
                         Arrays.asList("√((x₂ - x₁)² + (y₂ - y₁)²)", "√((y₂ - y₁)² - (x₂ - x₁)²)", "√((y₁ - y₂)² + (x₁ - x₂)²)", "√((x₁ - x₂)² + (y₁ - y₂)²)"),
                         Arrays.asList("x ≥ 3", "x > 3", "x ≤ 3", "x < 3")

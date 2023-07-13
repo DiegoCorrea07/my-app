@@ -231,7 +231,7 @@ public class QuestionnaireListView extends VerticalLayout {
 
         Dialog resultsDialog = new Dialog();
         resultsDialog.setWidth("600px");
-        resultsDialog.setHeight("400px");
+        resultsDialog.setHeight("500px");
 
         if (!results.isEmpty()) {
             Grid<Result> grid = new Grid<>(Result.class);

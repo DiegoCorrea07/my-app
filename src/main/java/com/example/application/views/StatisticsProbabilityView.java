@@ -52,7 +52,7 @@ public class StatisticsProbabilityView extends VerticalLayout implements HasUrlP
                         "Sumar todos los valores y dividir entre el número total de datos",
                         "El valor que se encuentra en el centro del conjunto de datos ordenados",
                         "El valor o valores que más se repiten en el conjunto de datos",
-                        "1/2",
+                        "3/6",
                         "1/52",
                         "1/2",
                         "4/10"
@@ -71,16 +71,16 @@ public class StatisticsProbabilityView extends VerticalLayout implements HasUrlP
                 );
             case "medio":
                 correctAnswers = Arrays.asList(
-                        "Sumar los cuadrados de las diferencias entre cada valor y la media, y dividir entre el número total de datos",
-                        "Raíz cuadrada de la varianza",
+                        "Sumar los cuadrados de las diferencias entre cada valor y la media, y dividir entre el tamaño de la muestra menos 1",
+                        "La raíz cuadrada de la diferencia entre el promedio de los cuadrados de los valores y el cuadrado del valor promedio",
                         "6",
                         "5",
                         "5",
-                        "1/2",
+                        "3/6",
                         "4/52",
                         "1/2",
                         "7/10",
-                        "10"
+                        "8"
                 );
                 return Arrays.asList(
                         "¿Cuál es la fórmula para calcular la varianza de un conjunto de datos?",
@@ -134,7 +134,7 @@ public class StatisticsProbabilityView extends VerticalLayout implements HasUrlP
                         Arrays.asList("Sumar todos los valores y dividir entre el número total de datos", "Calcular el promedio de los valores extremos", "Sumar los valores mayores y menores y dividir entre dos"),
                         Arrays.asList("El valor más pequeño del conjunto de datos", "El valor que se encuentra en el centro del conjunto de datos ordenados", "El valor más grande del conjunto de datos"),
                         Arrays.asList("El valor o valores que más se repiten en el conjunto de datos", "La suma de todos los valores dividida entre el número total de datos", "El valor medio del conjunto de datos"),
-                        Arrays.asList("1/2", "1/6", "2/3"),
+                        Arrays.asList("1/2", "3/6", "2/3"),
                         Arrays.asList("1/13", "1/52", "1/26"),
                         Arrays.asList("1/2", "1/3", "2/3"),
                         Arrays.asList("4/10", "3/10", "2/5")
@@ -142,14 +142,14 @@ public class StatisticsProbabilityView extends VerticalLayout implements HasUrlP
             case "medio":
                 return Arrays.asList(
                         Arrays.asList(
-                                "Sumar los cuadrados de las diferencias entre cada valor y la media, y dividir entre el número total de datos",
+                                "Sumar los cuadrados de las diferencias entre cada valor y la media, y dividir entre el tamaño de la muestra menos 1",
                                 "Restar el valor mínimo del valor máximo",
                                 "Multiplicar todos los valores",
                                 "Dividir el valor máximo por el valor mínimo"
                         ),
                         Arrays.asList(
                                 "Dividir la suma de todos los valores entre el número total de datos",
-                                "Calcular el promedio de los valores",
+                                "La raíz cuadrada de la diferencia entre el promedio de los cuadrados de los valores y el cuadrado del valor promedio",
                                 "Sumar todos los valores",
                                 "Dividir el valor máximo entre el valor mínimo"
                         ),
@@ -172,7 +172,7 @@ public class StatisticsProbabilityView extends VerticalLayout implements HasUrlP
                                 "9"
                         ),
                         Arrays.asList(
-                                "1/6",
+                                "3/6",
                                 "1/2",
                                 "2/3",
                                 "5/6"
